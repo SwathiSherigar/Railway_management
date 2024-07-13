@@ -1,0 +1,49 @@
+/* styles.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #1a202c; /* Change to your desired background color */
+}
+
+.user-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  height: 100vh;
+}
+
+.table-container {
+  width: 80%;
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #2d3748; /* Change to your desired background color */
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #4a5568; /* Change to your desired border color */
+  padding: 8px;
+  text-align: left;
+  color: #cbd5e0; /* Change to your desired text color */
+}
+
+.user-table th {
+  background-color: #4a5568; /* Change to your desired header background color */
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
